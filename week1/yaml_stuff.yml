@@ -1,0 +1,19 @@
+- 0
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- some text
+- oh you want more!
+- attribs:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  ip_addr: 10.10.10.249
+  netmask: 255.255.255.0
+  gateway: 10.10.10.1
