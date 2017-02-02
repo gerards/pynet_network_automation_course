@@ -15,9 +15,9 @@ def send_command(remote_conn, cmd):
 	return remote_conn.read_very_eager()
 	
 def login(remote_conn, username, password):
-	output = remote_conn.read_util("sername:", TELNET_TIMEOUT)
+	output = remote_conn.read_until("sername:", TELNET_TIMEOUT)
 	remote_conn.write(username + '\n')
-	output = remote_conn.read_util("ssword:", TELNET_TIMEOUT)
+	output = remote_conn.read_until("ssword:", TELNET_TIMEOUT)
 	remote_conn.write(password + '\n')
 
 def telnet_connection(ip_addr):
@@ -27,7 +27,7 @@ def telnet_connection(ip_addr):
 		sys.exit("Connection timed-out")
 		
 def main(): 
-	ip_addr = '50.76.53.27'
+	ip_addr = '184.105.247.70'
 	username = 'pyclass'
 	password = '88newclass'
 	
