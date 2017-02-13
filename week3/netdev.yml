@@ -1,0 +1,8 @@
+!!python/unicode 'pynet-rtr1.twb-tech.com': !!python/object/new:__main__.NetworkDevice
+- 2018219157
+- 2016095610
+- false
+!!python/unicode 'pynet-rtr2.twb-tech.com': !!python/object/new:__main__.NetworkDevice
+- 1888659841
+- 1888646817
+- true

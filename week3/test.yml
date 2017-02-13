@@ -1,0 +1,8 @@
+rtr1: !!python/object/new:__main__.NetworkDevice
+- 100
+- 50
+- false
+rtr2: !!python/object/new:__main__.NetworkDevice
+- 2400
+- 20
+- false
